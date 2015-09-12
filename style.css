@@ -1,4 +1,16 @@
+html {
+	box-sizing: border-box;
+}
 
 head {
-	font-family: helvetica
+	background-image: url("assets/background.svg");
+	background-size: contain;
+}
+
+h1 {
+	font-family: helvetica;
+}
+
+p {
+	font-family: helvetica;
 }
