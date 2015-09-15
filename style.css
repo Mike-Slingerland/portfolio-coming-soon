@@ -15,6 +15,9 @@ h1 {
 
 p {
 	font-family: helvetica;
+	margin-left: .75em;
+	margin-right: .75em;
+	min-width: 260px;
 }
 
 li {
@@ -39,4 +42,9 @@ ul {
 
 .t-center {
 	text-align: center;
+}
+
+.b-ground {
+	position: absolute;
+	background-size: 100%
 }
