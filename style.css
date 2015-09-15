@@ -2,9 +2,11 @@ html {
 	box-sizing: border-box;
 }
 
-head {
-	background-image: url("assets/background.svg");
-	background-size: contain;
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+body {
 }
 
 h1 {
@@ -13,4 +15,28 @@ h1 {
 
 p {
 	font-family: helvetica;
+}
+
+li {
+	font-family: helvetica;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.mike {
+	max-height: 150px;
+	margin-top: 50px;
+}
+
+.s-media {
+	display: inline;
+}
+
+ul {
+	padding-left: 0px;
+	margin-top: 50px;
+}
+
+.t-center {
+	text-align: center;
 }
